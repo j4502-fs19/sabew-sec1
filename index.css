@@ -46,10 +46,13 @@ a img{
     padding-top: 1%;
     padding-bottom: 3%;
     color:black;
+    margin: auto;
 }
 
 h1{
-  font-size: 18px;
+  font-size: 40px;
+  font-weight: bold;
+
 }
 
 .detail{
