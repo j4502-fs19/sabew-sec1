@@ -52,6 +52,7 @@ a img{
 h1{
   font-size: 40px;
   font-weight: bold;
+  border-bottom: 2px solid #50bf8b;
 
 }
 
