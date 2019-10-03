@@ -2,6 +2,7 @@
   color:white;
   background-color: #3a3a3b;
   margin: 0px;
+  padding-top: 1%;
 }
 
 #image-title{
@@ -21,7 +22,6 @@ a img{
 }
 
 #nav{
-  padding-bottom: 1%;
   list-style-type: none;
   background-color: #3a3a3b;
   color: white;
