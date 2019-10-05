@@ -26,6 +26,11 @@ a img{
   font-weight: bold;
 }
 
+#sabew a:link, #sabew a:visited, #sabew a:hover{
+ text-decoration: none;
+ color:white;
+}
+
 #nav{
   list-style-type: none;
   background-color: #3a3a3b;
