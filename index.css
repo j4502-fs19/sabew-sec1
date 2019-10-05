@@ -80,12 +80,9 @@ li{
   padding-bottom: 0.5em;
 }
 
-.detail p{
+.detail p {
   margin:0.5em;
   line-height: 1.5em;
-}
-.detail li {
-  list-style-type: none;
 }
 
 #footer{
@@ -114,7 +111,40 @@ padding-bottom: 5px;
 
 /* CSS-Event */
 
+/* CSS-Homepage-this area dedicated to homepage, please check with Ralph before changing */
+#homepagespotlight {
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+#homepagespotlight h1 {
+  border: none;
+}
 
+#homepageevents {
+  margin: 10px auto;
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 80%;
+}
+
+#homepagecaption {
+  background-color: #ffffff;
+  padding: 2px;
+}
+#homepagecaption p{
+  font-size: 10px;
+}
+#homepageevents h1 {
+  border: none;
+}
+img {
+  width: 100%;
+}
+
+.homepage_spotlight {
+
+}
+/* CSS-Homepage(end) */
 
 @media screen and (min-width:600px) {
   #nav{
