@@ -111,7 +111,11 @@ padding-bottom: 5px;
   text-decoration:underline;
 }
 
-/* CSS-Event */
+/* Index */
+
+/* About */
+
+/* Events */
 .event-list{
     list-style-type: none;
     padding-left: 0px;
@@ -127,6 +131,9 @@ padding-bottom: 5px;
   text-decoration:underline;
 }
 
+/* Resources */
+
+/* Membership */
 
 @media screen and (min-width:600px) {
   #nav{
