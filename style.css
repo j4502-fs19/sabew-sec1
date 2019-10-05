@@ -76,7 +76,8 @@ li{
   width:85%;
   background-color: white;
   margin: 0 auto;
-  padding-bottom: 0.5em;
+  padding: 0 0.5em 0.5em 0.5em;
+
 }
 
 .detail p{
