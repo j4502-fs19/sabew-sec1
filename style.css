@@ -120,15 +120,12 @@ padding-bottom: 5px;
   color:black;
 }
 
-#homepagecaption {
-  background-color: #ffffff;
-  font-size: 10px;
-  color: black;
-}
-
-#homepagecaption p{
+#homepagespotlight p{
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  background-color: #ffffff;
+  font-size: 12px;
+  color: black;
 }
 
 /* CSS-Homepage(end) */
@@ -159,7 +156,6 @@ padding-bottom: 5px;
 #homepageevents h1 {
   border: none;
 }
-
 
 .homepage_spotlight {
 
