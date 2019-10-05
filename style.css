@@ -120,10 +120,12 @@ padding-bottom: 5px;
 /* CSS-Homepage-this area dedicated to homepage, please check with Ralph before changing */
 #homepagespotlight {
   background-color: #FFFFFF;
-  padding: 10px;
+  margin-top: 0px;
+
 }
 #homepagespotlight h1 {
   border: none;
+  margin-top: 0px;
 }
 
 #homepageevents {
