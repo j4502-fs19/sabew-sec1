@@ -84,7 +84,9 @@ li{
   margin:0.5em;
   line-height: 1.5em;
 }
-
+.detail li {
+  list-style-type: none;
+}
 
 #footer{
 color:white;
