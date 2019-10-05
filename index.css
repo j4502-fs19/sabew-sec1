@@ -137,12 +137,19 @@ padding-bottom: 5px;
 #homepageevents h1 {
   border: none;
 }
+#homepageevents a {
+  text-decoration: none;
+}
 img {
   width: 100%;
 }
 
 .homepage_spotlight {
 
+}
+
+#latestnews a {
+  text-decoration: none;
 }
 /* CSS-Homepage(end) */
 
