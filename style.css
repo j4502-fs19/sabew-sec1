@@ -19,6 +19,7 @@ body {
 
 a img{
   display: block;
+  width:125px;
 }
 
 #sabew{
@@ -144,9 +145,7 @@ padding-bottom: 5px;
 #homepageevents h1 {
   border: none;
 }
-img {
-  width: 100%;
-}
+
 
 .homepage_spotlight {
 
