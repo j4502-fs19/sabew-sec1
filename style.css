@@ -184,6 +184,10 @@ padding-bottom: 5px;
 /* jobs */
 
 /* Membership */
+td {
+  padding: 8px;
+}
+
 
 @media screen and (min-width:600px) {
   #nav{
