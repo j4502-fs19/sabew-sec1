@@ -52,10 +52,11 @@ body {
 
 
 h1{
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
   border-bottom: 2px solid #50bf8b;
   margin-bottom: 0px;
+  padding-top: 0.5em;
 }
 
 h3{
@@ -160,6 +161,17 @@ padding-bottom: 5px;
 .homepage_spotlight {
 
 }
+
+.detail a:link, .detail a:visited{
+  color: #50bf8b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.detail a:hover{
+  text-decoration:underline;
+}
 /* CSS-Homepage(end) */
 /* About */
 
@@ -182,6 +194,12 @@ padding-bottom: 5px;
 /* Resources */
 
 /* jobs */
+form {
+  margin-left: 1em;
+  line-height: 1.5em;
+}
+
+
 
 /* Membership */
 td {
