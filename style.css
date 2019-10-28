@@ -5,7 +5,7 @@ body {
 #menu {
   text-decoration: none;
   background-color: white;
-  display: flex;
+  display: grid;
 }
 
 #menu a {
