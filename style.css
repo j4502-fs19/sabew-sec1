@@ -59,22 +59,26 @@ nav ul li {
 }
 
 
-
 #menu {
   text-decoration: none;
   background-color: white;
   display: flex;
-}
-
-#menu a {
-  text-decoration: none;
-  color: black;
+  width: 59%;
+  margin: auto;
+  display: grid;
+  grid-row: 1fr;
+  grid-row-gap: 7px;
+  float: clear;
 }
 #menu li {
   color: black;
   list-style: none;
 }
 
+#menu a {
+  text-decoration: none;
+  color: black;
+}
 
 #container{
     background-color: #f1f2f2;
@@ -123,6 +127,7 @@ li{
   background-color: white;
   margin: 0 auto;
   padding: 0 0.5em 0.5em 0.5em;
+  grid-column: 2/3;
 
 }
 
