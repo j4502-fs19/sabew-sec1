@@ -412,9 +412,16 @@ display:flex;
 	border-radius: 2px;
 }
 
-
+#menu{
+display: none;
+}
 
 @media screen and (min-width:600px) {
+
+  .detail{
+    width:60%;
+  }
+
   #nav{
       flex-direction: row;
   }
@@ -440,7 +447,8 @@ display:flex;
   }
 
   #menu{
-  display: none;
-}
+  display:block;
+  }
+
 
 }
