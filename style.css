@@ -80,14 +80,10 @@ h1{
 h3{
   margin-top: 0.5em;
   margin-bottom: 0.3em;
+  padding-left: 1em;
 }
 
 /* List for Jobs*/
-
-h4{
-  margin-top: 1em;
-  margin-bottom: .5em;
-}
 
 ul{
   margin-top: 0.5em;
@@ -107,6 +103,8 @@ ul{
 
 .detail p{
   line-height: 1.5em;
+  padding-left: 1em;
+  padding-right:1em;
 }
 
 
