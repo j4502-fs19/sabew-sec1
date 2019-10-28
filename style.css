@@ -41,6 +41,13 @@ body {
  color:white;
 }
 
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+
 #nav{
   list-style-type: none;
   background-color: #3a3a3b;
@@ -415,6 +422,7 @@ display:flex;
 	background: rgba(0,0,0, .9);
 	border-radius: 2px;
 }
+
 @media screen and (min-width:600px) {
   #nav{
       flex-direction: row;
