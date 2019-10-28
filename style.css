@@ -431,6 +431,7 @@ display:flex;
   position:fixed;
   line-height: 2.5em;
   font-size: 18px;
+  font-weight: bold;
   width:190px;
   }
 
