@@ -42,39 +42,21 @@ nav a {
     color: white;
     display: block;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 10px 20px;
 }
 
 nav ul li {
     display: block;
 }
 
-
-
-
-
-
-
-
-
-
-#nav{
-  list-style-type: none;
-  background-color: #3a3a3b;
-  color: white;
-  display:flex;
-  flex-direction:column;
+nav{
+  font-family: 'Manjari', sans-serif;
+  font-weight: bold;
 }
 
-#nav a:link, #nav a:visited {
-	  display:block;
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 4px;
+nav ul li {
+    display: block;
 }
-
-
 
 
 
@@ -457,8 +439,25 @@ display:flex;
   #nav{
       flex-direction: row;
   }
+
+  nav ul {
+      display: flex;
+  }
+
+  nav ul li {
+      border-top: none;
+  }
+
   .menu-trigger {
       display: none;
+  }
+
+  header h1 {
+      order: 1;
+  }
+
+  nav {
+      order: 2;
   }
 
   #menu{
