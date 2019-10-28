@@ -63,11 +63,16 @@ nav ul li {
   text-decoration: none;
   background-color: white;
   display: flex;
-  width: 59%;
+  width: 70px;
   margin: auto;
   display: grid;
   grid-row: 1fr;
   grid-row-gap: 7px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  padding:0 10px;
+
 }
 
 #menu li {
@@ -125,7 +130,7 @@ li{
 .detail{
   width:65%;
   background-color: white;
-  margin: 0 auto;
+  margin-left: 5px;
   padding: 0 0.5em 0.5em 0.5em;
   grid-column: 2/3;
 
