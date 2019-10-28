@@ -429,9 +429,10 @@ display:flex;
   display: none;
   list-style-type: none;
   position:fixed;
-  line-height: 1.5em;
-
-}
+  line-height: 2.5em;
+  font-size: 18px;
+  width:190px;
+  }
 
 #menu a:link, #menu a:visited{
   color: #50bf8b;
@@ -447,16 +448,14 @@ display:flex;
 @media screen and (min-width:600px) {
 
   #container{
-    width:70%;
+    width:80%;
     display: grid;
-    grid-template-columns: auto 130px;
+    grid-template-columns: auto 190px;
     align-items: start;
     grid-template-areas:
         "a b";
     grid-gap: 20px;
   }
-
-
 
   #nav{
       flex-direction: row;
@@ -483,8 +482,7 @@ display:flex;
   }
 
   #menu{
-  display:block;
+    display:block;
   }
-
 
 }
