@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #f1f2f2;
 }
 
 
@@ -61,11 +62,20 @@ nav ul li {
 
 #container{
     background-color: #f1f2f2;
+    margin:0 auto;
     padding-top: 1%;
     padding-bottom: 3%;
     color:black;
+    width:80%;
 }
 
+#side{
+  grid-area:b;
+}
+
+#main{
+  grid-area:a;
+}
 
 h1{
   font-size: 25px;
@@ -95,7 +105,7 @@ ul{
 
 
 .detail{
-  width:75%;
+  width:100%;
   background-color: white;
   margin:0 auto;
   line-height: 1.5em;
@@ -151,6 +161,9 @@ padding-bottom: 5px;
 }
 
 /* CSS-Homepage(end) */
+
+
+
 
 /* CSS-Homepage-this area dedicated to homepage, please check with Ralph before changing */
 #homepagespotlight {
@@ -415,14 +428,35 @@ display:flex;
 #menu{
   display: none;
   list-style-type: none;
+  position:fixed;
+  line-height: 1.5em;
 
+}
+
+#menu a:link, #menu a:visited{
+  color: #50bf8b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+#menu a:hover{
+  text-decoration:underline;
 }
 
 @media screen and (min-width:600px) {
 
-  .detail{
-    width:60%;
+  #container{
+    width:70%;
+    display: grid;
+    grid-template-columns: auto 130px;
+    align-items: start;
+    grid-template-areas:
+        "a b";
+    grid-gap: 20px;
   }
+
+
 
   #nav{
       flex-direction: row;
