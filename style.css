@@ -59,6 +59,14 @@ nav ul li {
     display: block;
 }
 
+#index-container{
+    background-color: #f1f2f2;
+    margin:0 auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    color:black;
+    width:80%;
+}
 
 #container{
     background-color: #f1f2f2;
@@ -447,7 +455,10 @@ display:flex;
 }
 
 @media screen and (min-width:600px) {
-
+  #index-container{
+    width:70%;
+  }
+  
   #container{
     width:80%;
     display: grid;
