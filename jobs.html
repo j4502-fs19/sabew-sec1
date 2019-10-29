@@ -6,35 +6,41 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="style.css" rel="stylesheet" type="text/css"/>
-
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="index.js" type="text/javascript"></script>
 </head>
 
 <body>
-<div id = "header">
-  <div id="image-title">
-    <a href="#"><img src="https://sabew.org/wp-content/themes/sabew-crm/images/common/sabew_logo.png" alt="#" width=125px/></a>
-  <div id="sabew"><a href="index.html">SABEW</a></div>
-</div>
-
-  <ul id = "nav">
-  <li id ="about"><a href="about.html">About</a></li>
-  <li id = "events"><a href="events.html">Events</a></li>
-  <li id = "resources"><a href="resources.html">Resources</a></li>
-  <li id= "jobs"><a href="jobs.html">Jobs</a></li>
-  <li id = "membership"><a href="membership.html">Membership</a></li>
-</ul>
-
-<div id = "container">
-  <div id="menu">
-    <ul>
-      <li><a href="#jobs">Jobs</a><li>
-      <li><a href="#listings">Job Listings</a><li>
-      <li><a href="#submission">Job Submission Form</a><li>
-    <ul>
+  <header>
+    <div id="image-title">
+      <a href="#"><img src="https://sabew.org/wp-content/themes/sabew-crm/images/common/sabew_logo.png" alt="#" width=125px/></a>
+      <div id="sabew"><a href="index.html">SABEW</a></div>
   </div>
 
+  <nav>
+    <a class="menu-trigger" href="#">&#9776;</a>
+    <ul id = "nav">
+    <li><a href="about.html">About</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="jobs.html">Jobs</a></li>
+    <li><a href="membership.html">Membership</a></li>
+  </ul>
+  </nav>
+  </header>
+
+  <div id = "container">
+    <div id="side">
+      <ul id = "menu">
+      <li><a href="#jobs">□</a> Jobs</li>
+      <li><a href="#job-listing">□</a> Job Listings</li>
+      <li><a href="#form">□</a> Submission Form</li>
+    </ul>
+  </div>
+
+  <div id="main">
   <div class="detail">
-    <h1>Jobs</h1>
+    <h1 id="jobs">Jobs</h1>
     <p><strong>A One-Stop Shop for Business Journalism Recruiting and Searching</strong></p>
     <p>SABEW accepts all journalism and related jobs such as journalism research. Public relations and other writing jobs are not accepted. SABEW reserves the right to determine whether a job posting meets our submission requirements.</p>
 
@@ -50,16 +56,16 @@
   </div>
 
 <div class= "detail">
-  <h1>Job Listings</h1>
+  <h1 id="job-listing">Job Listings</h1>
   <ul>
-    <li><h4><strong>Business News & Enterprise Reporter</strong></h4></li>
+    <li><strong>Business News & Enterprise Reporter</strong></li>
       Atlanta Journal-Constitution
       <br>Full Time
       <br>Newly Created Position
       <br>East Coast
       <br>Application Deadline: October 7, 2019
 
-  <li><h4>Reporter</h4></li>
+  <li><b>Reporter</b></li>
     Private Debt Investor (PEI Media)
     <br>Full Time
     <br>Vacancy Needed to be filled
@@ -69,7 +75,7 @@
 </div>
 
 <div class="detail">
-<h1>Job Submission Form</h1>
+<h1 id="form">Job Submission Form</h1>
 <form action="/action_page.php">
   First name:<br>
   <input type="text" name="firstname" value="Mickey"><br>
@@ -88,8 +94,8 @@
 </form>
 </div>
 </div>
-
 </div>
+
 
 <div id="footer">
 <p>SABEW<p>

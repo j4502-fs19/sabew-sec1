@@ -6,38 +6,45 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="style.css" rel="stylesheet" type="text/css"/>
-
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="index.js" type="text/javascript"></script>
 </head>
 
 <body>
-<div id = "header">
-  <div id="image-title">
-    <a href="#"><img src="https://sabew.org/wp-content/themes/sabew-crm/images/common/sabew_logo.png" alt="#" width="125px"/></a>
-    <div id="sabew"><a href="index.html">SABEW</a></div>
-</div>
+  <header>
+    <div id="image-title">
+      <a href="#"><img src="https://sabew.org/wp-content/themes/sabew-crm/images/common/sabew_logo.png" alt="#" width=125px/></a>
+      <div id="sabew"><a href="index.html">SABEW</a></div>
+  </div>
 
-  <ul id = "nav">
-  <li id ="about"><a href="about.html">About</a></li>
-  <li id = "events"><a href="events.html">Events</a></li>
-  <li id = "resources"><a href="resources.html">Resources</a></li>
-  <li id= "jobs"><a href="jobs.html">Jobs</a></li>
-  <li id = "membership"><a href="membership.html">Membership</a></li>
-</ul>
+  <nav>
+    <a class="menu-trigger" href="#">&#9776;</a>
+    <ul id = "nav">
+    <li><a href="about.html">About</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="jobs.html">Jobs</a></li>
+    <li><a href="membership.html">Membership</a></li>
+  </ul>
+  </nav>
+  </header>
 
-<div id = "container">
   <div id="slideshow">
     <a href="#"><img src="https://sabew.org/wp-content/uploads/2019/08/https___cdn.evbuc_.com_images_70373705_5598379241_1_original.jpeg" alt="" width=100%/></a>
+  </div>
+
+  <div id = "container">
+    <div id="side">
+    <ul id = "menu">
+    <li><a href="#event">□</a> Event</li>
+    <li><a href="#training">□</a> Training</li>
+    <li><a href="#college-connect">□</a> College Connect</li>
+  </ul>
 </div>
 
-<div id="menu">
-  <ul>
-    <li><a href="#conference">Conference</a><li>
-    <li><a href="#training">Training</a><li>
-    <li><a href="#workshops">Workshops</a><li>
-  <ul>
-</div>
+<div id="main">
   <div class="detail">
-    <h1>Event</h1>
+    <h1 id="event">Event</h1>
     <h3>Upcoming</h3>
     <ul class="event-list">
       <li><a href="#">Oct. 10</a> How to harness technology for innovative journalism</li>
@@ -49,10 +56,10 @@
       <li><a href="#">Sept. 16:</a> SABEW D.C. Mixer, National Press Club</li>
       <li><a href="#">More events</a></li>
     </ul>
-</div>
+  </div>
 
 <div class= "detail">
-  <h1>Training</h1>
+  <h1 id=training>Training</h1>
   <ul class="event-list">
     <li><a href="#">September:</a> Learning about the Fed</li>
     <li><a href="#">August:</a> Covering the nation’s trade disputes</li>
@@ -62,7 +69,7 @@
 </div>
 
 <div class="detail">
-<h1>College Connect</h1>
+<h1 id=college-connect>College Connect</h1>
 <p>Students who write for the College Connect blog describe their own experiences handling and managing money and credit. Blog topics include family financial crises, working while going to school, financial aid, managing debt and more.</p>
   <ul class="event-list">
     <li><a href="#">□</a> Technology investment awakening by Hailey Mensik</li>
@@ -75,6 +82,7 @@
 
 </div>
 </div>
+
 
 <div id="footer">
 <p>SABEW<p>
