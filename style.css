@@ -108,8 +108,9 @@ li{
 }
 
 .detail p{
-  margin:2.5em;
+  margin:1.5em;
   line-height: 1.5em;
+  padding-left: 1em;
 }
 
 
@@ -203,7 +204,7 @@ padding-bottom: 5px;
 .event-list{
     list-style-type: none;
     padding-left: 0px;
-    padding-left: 1em;
+    padding-left: 2.5em;
 }
 
 .event-list a:link, .event-list a:visited{
@@ -224,8 +225,6 @@ form {
   padding-left: 1.5em;
 }
 
-
-
 /* Membership */
 td {
   padding: 4px;
@@ -239,4 +238,12 @@ td {
   }
   #menu{
   display: none;
+}
+}
+
+@media screen and (max-width:599px) {
+  td{
+    padding: 2px;
+    padding-left: 3em;
+  }
 }
