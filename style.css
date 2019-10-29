@@ -464,7 +464,7 @@ display:flex;
     width:80%;
     display: grid;
     grid-template-columns: auto 190px;
-    align-items: start;
+    align-items:start;
     grid-template-areas:
         "a b";
     grid-gap: 20px;
@@ -497,5 +497,6 @@ display:flex;
   #menu{
     display:block;
   }
+
 
 }
