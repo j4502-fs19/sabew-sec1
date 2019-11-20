@@ -503,6 +503,7 @@ display:flex;
   #menu{
     display:block;
   }
+  ul.slides {padding:0;}
 
 
 }
