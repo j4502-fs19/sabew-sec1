@@ -10,7 +10,7 @@ header {
   margin-top: -8px;
   margin-left: -8px;
   margin-right: -8px;
-  padding-top: 3%;
+  padding-top: 1%;
 }
 
 #image-title{
@@ -21,9 +21,14 @@ header {
   justify-content: center;
 }
 
+#image-title img{
+  padding: 10px;
+}
+
 #sabew{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
+  padding-left: 20px;
 }
 
 #sabew a:link, #sabew a:visited, #sabew a:hover{
@@ -509,5 +514,9 @@ display:flex;
     display:block;
   }
   ul.slides {padding:0;}
+
+  #sabew{
+    font-size: 30px;
+  }
 
 }
