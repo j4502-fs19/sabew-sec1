@@ -11,18 +11,22 @@ header {
   margin-left: -8px;
   margin-right: -8px;
   padding-top: 1%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 }
 
 #image-title{
-  padding-top: 1%;
   display:flex;
   flex-direction:row;
   align-items: center;
   justify-content: center;
+  margin:0 auto;
+  padding-bottom: 2px;
 }
 
 #image-title img{
-  padding: 10px;
+
 }
 
 #sabew{
@@ -37,7 +41,7 @@ header {
   padding-left: 20px;
   }
 
-  #sabew-website a:link, #sabew-website a:visited, #sabew-website a:hover{
+#sabew-website a:link, #sabew-website a:visited, #sabew-website a:hover{
    text-decoration: none;
    color:white;
   }
@@ -483,7 +487,7 @@ display:flex;
 }
 
 #sabew-website{
-  visibility:hidden;
+  display: none;
 }
 
 @media screen and (min-width:750px) {
@@ -492,8 +496,10 @@ display:flex;
   }
 
   #sabew-website{
-    visibility:visible;
+    display: block;
   }
+  header{
+  display:block;}
 
   #index-container{
     width:60%;
