@@ -26,7 +26,7 @@ header {
 }
 
 #sabew{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   padding-left: 20px;
 }
@@ -471,7 +471,7 @@ display:flex;
   text-decoration:underline;
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:750px) {
   #index-container{
     width:60%;
   }
@@ -516,7 +516,7 @@ display:flex;
   ul.slides {padding:0;}
 
   #sabew{
-    font-size: 30px;
+    padding-left: 30px;
   }
 
 }
