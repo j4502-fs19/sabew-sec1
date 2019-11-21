@@ -123,15 +123,14 @@ ul{
 }
 
 .detail p{
-<<<<<<< HEAD
+
   margin:1.5em;
   line-height: 1.5em;
   padding-left: 1em;
-=======
   line-height: 1.5em;
   padding-left: 1em;
   padding-right:1em;
->>>>>>> 249203cefa25e5a047e339d9823d9528c280de9b
+
 }
 
 .detail ul{
@@ -325,7 +324,9 @@ display:flex;
   margin:0 auto;
 }
 
-
+#img {
+  padding-left: 20px;
+}
 
 /* Direction Nav */
 .flex-direction-nav a {
@@ -466,11 +467,11 @@ display:flex;
 
 @media screen and (min-width:600px) {
   #index-container{
-    width:65%;
+    width:60%;
   }
 
   #container{
-    width:80%;
+    width:70%;
     display: grid;
     grid-template-columns: auto 190px;
     align-items:start;
@@ -509,8 +510,9 @@ display:flex;
   ul.slides {padding:0;}
 
 
+
 }
-}
+
 
 @media screen and (max-width:599px) {
   td{
