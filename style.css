@@ -322,7 +322,9 @@ display:flex;
   margin:0 auto;
 }
 
-
+#img {
+  padding-left: 20px;
+}
 
 /* Direction Nav */
 .flex-direction-nav a {
