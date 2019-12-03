@@ -467,6 +467,10 @@ display:flex;
   opacity: 0.4;
 }
 
+ul.slides {
+  padding:0;
+}
+
 #menu{
   display: none;
   list-style-type: none;
@@ -544,7 +548,10 @@ display:flex;
   #menu{
     display:block;
   }
-  ul.slides {padding:0;}
+
+  ul.slides {
+    padding:0;
+  }
 
   #sabew{
     padding-left: 30px;
